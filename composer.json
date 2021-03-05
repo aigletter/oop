@@ -1,0 +1,16 @@
+{
+    "name": "aigletter/oop-advanced",
+    "authors": [
+        {
+            "name": "aigletter",
+            "email": "aigletter@gmail.com"
+        }
+    ],
+    "require": {},
+    "description": "",
+    "autoload": {
+        "psr-4": {
+            "Oop\\": "oop"
+        }
+    }
+}
