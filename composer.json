@@ -6,11 +6,15 @@
             "email": "aigletter@gmail.com"
         }
     ],
-    "require": {},
+    "require": {
+      "ext-json": "*"
+    },
     "description": "",
     "autoload": {
         "psr-4": {
-            "Oop\\": "oop"
+            "Oop\\": "oop",
+            "Patterns\\": "patterns",
+            "Reflection\\": "reflection"
         }
     }
 }

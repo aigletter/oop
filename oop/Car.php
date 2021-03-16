@@ -6,15 +6,27 @@ namespace Oop;
 
 class Car extends Vehicle
 {
+    use PowerCalculator, TestTrait {
+        PowerCalculator::calculate insteadof TestTrait;
+        TestTrait::calculate as testCalculate;
+    }
+
+    public static $country = 'USA';
+
     protected $name;
 
     protected $engine;
 
-    public function __construct($name, $year, Engine $engine)
+    public function __construct($name, $year)
     {
         $this->name = $name;
         $this->year = $year;
-        $this->engine = $engine;
+        $this->engine = new Engine();
+    }
+
+    public static function getCountry()
+    {
+        return self::$country;
     }
 
     public function sayYear()

@@ -6,7 +6,12 @@ namespace Oop;
 
 class Engine
 {
-    protected $pawer;
+    protected $power = 10;
+
+    public function getPower()
+    {
+        return $this->power;
+    }
 
     public function start()
     {
