@@ -1,0 +1,15 @@
+[
+  {
+    "id": 1,
+    "title": "Test json",
+    "products": [
+      {
+        "id": "1"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Hello json"
+  }
+]

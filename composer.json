@@ -7,14 +7,17 @@
         }
     ],
     "require": {
-      "ext-json": "*"
+      "ext-json": "*",
+      "ext-pdo": "*"
     },
     "description": "",
     "autoload": {
         "psr-4": {
             "Oop\\": "oop",
             "Patterns\\": "patterns",
-            "Reflection\\": "reflection"
+            "Reflection\\": "reflection",
+            "solid\\": "solid",
+            "di\\": "di"
         }
     }
 }
